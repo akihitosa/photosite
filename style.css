@@ -1,12 +1,39 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
 body {
-  width: 1280px;
+  font-size: 0.9rem;
+  color: #333333;
 }
 
-container {
-  width: 1000px;
-  margin: 0 auto;
+a {
+  /* 今回は、サイト内のリンクに下線が表示されないように設定します */
+  text-decoration: none;
 }
 
-.icon {
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  max-width: 1280px;
+  margin: auto1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 140px;
+}
+
+header {
+  margin-top: 60px;
+}
+header h1 {
   width: 160px;
 }/*# sourceMappingURL=style.css.map */

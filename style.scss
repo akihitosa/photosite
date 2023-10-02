@@ -1,12 +1,34 @@
+html {
+    font-size: 100%;
+}
 body {
-    width: 1280px;
+    font-size: 0.9rem;
+    color :#333333;
+}
+a {
+    /* 今回は、サイト内のリンクに下線が表示されないように設定します */
+       text-decoration: none;
+   }
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+  }
+
+body {
+    max-width: 1280px;
 }
 
-container {
-  width: 1000px;
+.container {
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.icon {
+header{
+    margin-top: 60px;
+
+h1 {
   width: 160px;
+}
 }
