@@ -6,6 +6,7 @@ html {
 body {
   font-size: 0.9rem;
   color: #333333;
+  background-color: #F4F9FF;
 }
 
 a {
@@ -23,12 +24,11 @@ li {
 
 body {
   max-width: 1280px;
-  margin: auto1;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 0 140px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header {
