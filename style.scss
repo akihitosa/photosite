@@ -107,10 +107,44 @@ footer {
     }
 }
 @media screen and (max-width: 600px) {
-    .logo {
-        width: 160px;
+        .logo {
+          width: 160px;
+        }
+        #mainvisual {
+          width: 355px;
+          margin: auto;
+        }
+        .indexhead {
+          padding-left: initial;
+        }
+        #index {
+              padding: 0 56px 0 40px ;
+              height: 375px;
+              background: white;
+        }
+        .detailhead {
+          margin-left: initial;
+          padding-left: 40px;
+          h2 {
+            margin-bottom: 10px;
+          }
+        }
+        .detailmain {
+          flex-direction: column;
+          img {
+            margin: 25px;
+          }
+        }
+        .detailtext {
+            padding-left: initial;
+            dl {
+                padding: 16px 0;
+            }
+        }
+        .detailtitle {
+            padding-bottom: 20px;
+        }
+        .detailbun {
+            padding: 25px 0 20px 0 ;
+        }
     }
-    .detailmain {
-            flex-direction: column;
-    }
-}
