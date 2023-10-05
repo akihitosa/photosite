@@ -13,9 +13,6 @@ a {
 img {
     max-width: 100%;
 }
-li {
-    list-style: none;
-  }
 
 body {
     max-width: 1280px;
@@ -46,8 +43,74 @@ h1 {
     h2 {
         display: inline-block;
         margin: 30px 0 10px 0;
+        font-size: 18px;
     }
     li {
         margin-bottom: 20px;
+        font-size: 14px;
+        margin-left: 18.34px;
+    }
+}
+
+#detail {
+    margin-top: 60px;
+}
+.detailhead {
+   margin-left: 200px; 
+   h2 {
+    font-size: 18px;
+   }
+}
+.detailmain {
+    display: flex;
+
+    img {
+        width: 270px;
+    }
+}
+
+.detailtext {
+    
+    padding-left: 60px;
+    dl {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 19px 0 20px 0;
+    }
+    dt {
+        width: 14%;
+    }
+    dd {
+        width: 85%
+    }
+    a {
+        border-bottom: 1px solid #333333;
+    }
+}
+$boder: 1px solid #DEDEDE;
+.detailtitle {
+    padding-bottom: 26px;
+    border-bottom: $boder;
+    width: 270px;
+}
+.detailbun {
+    border-top: $boder;
+    width: 270px;
+    padding-top: 28px;
+    padding-bottom: 21px;
+}
+
+footer {
+    p {
+        font-size: 10px;
+        margin-top: 118px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 160px;
+    }
+    .detailmain {
+            flex-direction: column;
     }
 }
